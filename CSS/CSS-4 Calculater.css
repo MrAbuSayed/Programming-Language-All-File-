@@ -1,0 +1,37 @@
+table,td{
+      color: rgba(202, 195, 245, 0.76);   
+      border: 1px none  rgb(14, 0, 27);
+      font-size: 35px;
+      font-weight: bold;
+      border-collapse: collapse ;
+      background-color: rgba(13, 1, 15, 0.671);
+      border-radius: 2px;
+      padding: 10px;
+}
+table,td:hover{
+    color: rgb(98, 158, 98);
+    background-color: rgb(12, 134, 134);
+}
+#g{
+    background-color: rgba(13, 1, 15, 0.671);
+    width: 240px;
+    border: 5px solid rgb(2, 2, 24);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+#g:hover{
+
+    box-shadow: 5px 6px 5px black ;
+     
+}
+h1{
+   font-style: italic;
+   text-align: center;
+   color: darkcyan;
+   font-size: 40px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-decoration: underline;
+  
+}

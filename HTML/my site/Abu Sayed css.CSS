@@ -1,0 +1,288 @@
+.{
+    box-sizing: border-box;
+}
+
+.F{
+    width: 200px;
+   color: rgb(1, 54, 63);
+   border-left: 5px dotted blue ;
+   border-top:5px green dotted  ;
+   border-bottom:5px navy dotted ;
+   border-right: 5px gray dotted ;
+   border-radius: 20px;
+   text-shadow: 2px 2px rgb(1, 54, 63);
+    
+    
+}
+body{
+    background-color: rgb(137, 194, 180);
+}
+
+#G{
+    text-shadow: 2px 3px rgb(1, 54, 63);
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+     color: rgb(138, 12, 54);
+
+
+
+}
+#J{
+    text-align: right;
+    font-size: 30px;
+    color: brown;
+
+}
+
+
+#B{
+   text-align: center;
+   color: rgb(1, 54, 63);
+
+}
+
+.i::first-letter{
+
+    color: rgb(1, 65, 61);
+    
+    font-size: 30px;
+}
+#z{
+
+    border: 10px rgb(1, 65, 61) solid;
+    height:200px;
+    width: 200px;
+    border-radius: 100%;
+   
+    
+}
+
+table,th,td{
+    border: 2px none;
+    color: rgb(105, 5, 151);
+    border-collapse: collapse;
+    rowspan:10px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 12px;
+    font-size: 20px;
+    
+
+}
+
+#y{
+    color: rgb(3, 41, 92);
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+    border: 5px rgb(3, 41, 92)  solid;
+    width: 300px;
+    border-radius: 5px;
+}
+.v{
+    border: 6px rgb(72, 4, 99);
+    height: 200px;
+    width: 300px;
+    border-radius: 5px;
+}
+.p{
+    font-size: 25px;
+    color: rgb(0, 52, 68);
+    text-decoration: none;
+    display: inline;
+}
+#Y:hover{
+text-decoration: underline;
+color: brown;
+}
+#A{
+    float: right;
+}
+ #q{
+    margin: 10px;
+    padding: 10px;
+    word-spacing: 20px;
+    background-color: rgba(95, 13, 54, 0.562);
+    width: 300px;
+    border: 2px rgb(63, 2, 53) solid;
+    font-size: 25px;
+ }
+.t{
+    color: rgb(59, 36, 36);
+    text-decoration: none;
+}
+.e{
+    background-color: black;
+    
+   
+  
+  
+    border: 2px solid cadetblue;
+    border-radius: 5px;
+    
+   
+    display: inline;
+}
+.l{
+    
+    border: none;
+   
+    border-radius: 5px;
+    
+    color: rgb(4, 46, 28);
+
+}
+.l:hover{
+    
+    border: none;
+    font-size: 4rem;
+    border-radius: 5px;
+    
+    color: rgb(250, 6, 238);
+
+}
+ @media  screen and (max-width:800px) {
+    .F{
+        width: 100px;
+       color: rgb(1, 54, 63);
+       border-left: 5px dotted blue ;
+       border-top:5px green dotted  ;
+       border-bottom:5px navy dotted ;
+       border-right: 5px gray dotted ;
+       border-radius: 20px;
+       text-shadow: 2px 2px rgb(1, 54, 63);
+       font-size: 20px;
+        
+        
+    }
+    body{
+        background-color: rgb(137, 194, 180);
+    }
+    
+    #G{
+        text-shadow: 2px 3px rgb(1, 54, 63);
+        font-size: 30px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-style: italic;
+         color: rgb(138, 12, 54);
+    
+    
+    
+    }
+    #J{
+        text-align: right;
+        font-size: 20px;
+        color: rgb(15, 41, 4);
+    
+    }
+    
+    
+    #B{
+       text-align: center;
+       color: rgb(1, 54, 63);
+    
+    }
+    
+    .i::first-letter{
+    
+        color: rgb(1, 65, 61);
+        
+        font-size: 30px;
+    }
+    #z{
+    
+        border: 10px rgb(1, 65, 61) solid;
+        height:100px;
+        width: 100px;
+        border-radius: 100%;
+       
+        
+    }
+    
+    table,th,td{
+        border: 2px none;
+        color: rgb(105, 5, 151);
+        border-collapse: collapse;
+        rowspan:10px;
+        padding: 20px;
+        margin: 10px;
+        border-radius: 12px;
+        font-size: 10px;
+        
+    
+    }
+    
+    #y{
+        color: rgb(3, 41, 92);
+        text-align:center;
+        font-family: 'Times New Roman', Times, serif;
+        border: 5px rgb(3, 41, 92)  solid;
+        width: 300px;
+        border-radius: 5px;
+    }
+    .v{
+        border: 2px rgb(72, 4, 99);
+        height: 70px;
+        width: 80px;
+        border-radius: 10px;
+    }
+    .p{
+        font-size: 15px;
+        color: rgb(0, 52, 68);
+        text-decoration: none;
+        display: inline;
+    }
+    #Y:hover{
+    text-decoration: underline;
+    color: rgb(58, 2, 50);
+    border: 3px solid black;
+    border-radius: 5px;
+    }
+    #A{
+        float: right;
+    }
+     #q{
+        margin:0;
+        padding: 10px 0;
+        word-spacing: 20px;
+        background-color: rgba(95, 13, 54, 0.562);
+        width: 150px;
+        border: 2px rgb(63, 2, 53) solid;
+        font-size: 10px;
+     }
+    .t{
+        color: rgb(59, 36, 36);
+        text-decoration: none;
+    }
+    .e{
+        background-color: black;
+        
+       
+      
+      
+        border: 2px solid cadetblue;
+        border-radius: 5px;
+        
+       
+        display: inline;
+    }
+    .l{
+        
+        border: none;
+       
+        border-radius: 5px;
+        
+        color: rgb(4, 46, 28);
+    
+    }
+    .l:hover{
+        
+        border: none;
+        font-size: 2rem;
+        border-radius: 5px;
+        
+        color: rgba(12, 28, 58, 0.938);
+    
+    }
+     
+ }

@@ -1,0 +1,76 @@
+.{
+    box-sizing: border-box;
+}
+
+.t{ height: 200px;
+    width: 200px;
+    background-color: darkgreen;
+    margin: 0 auto;
+    margin-top: 100px;
+    transition-property: width height text-align;
+    transition-duration: 5s;
+ 
+}
+.t:hover{
+    width: 400px;
+    text-align: center;
+    height:300px;
+}
+.apb{
+    background-color: rgb(170, 137, 201);
+    width: 100%;
+    height: 400px;
+ 
+ 
+}
+.apb li{
+     color: brown;
+     padding: 10px;
+     font-size: 1rem;
+     list-style-type: none;
+     position: relative;
+}
+.apb li::before{
+    content: '' ;
+    position: absolute;
+    top: calc(100% + 1px);
+
+    width: 90%;
+    height: 15px;
+    background-color: rgb(147, 153, 138);
+    border-radius: 50px;
+
+}
+ .apb li::after{
+
+    content: '' ;
+    position: absolute;
+    top: calc(100% + 1px);
+
+    width:0px;
+    height: 15px;
+    background-color: rgb(219, 238, 192);
+    border-radius: 50px;
+    animation-name: li ;
+ }
+
+ @keyframes li {
+      to{
+        width: 90%;
+        background-color: brown;
+      }
+
+ }
+ .b{
+    background-color: darkcyan;
+    width: 200px;
+    height: 200px;
+
+ }
+ .b li{
+     
+     padding: 10px;
+ 
+     list-style-type: square;
+
+ }

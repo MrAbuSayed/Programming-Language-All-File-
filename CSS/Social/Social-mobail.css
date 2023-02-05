@@ -1,0 +1,82 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+@media screen and (max-width: 700px) {
+    body{
+        background-color: rgb(220, 231, 245);
+      }
+      .hd{
+        text-align: center;
+    
+      }
+      .hd h1{
+        
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 4rem;
+        font-weight: 800;
+        color: rgb(33, 33, 196);
+
+
+      }
+      .hd p{
+        font-size: 1.4rem;
+        font-style: italic;
+        color: rgb(29, 29, 80);
+      }
+      .lgin{
+        text-align: center;
+        background-color: rgb(255, 247, 247);
+        width: 400px;
+        
+        border-radius: 10px;
+        margin: 0 auto;
+      }
+      .pe{
+        margin-top: 10px;
+        border: 1px solid rgb(230, 230, 248);
+        
+        background-color: rgb(218, 232, 250);
+        width: 350px;
+        height: 50px;
+        font-size: 1rem;
+        border-radius: 5px;
+      
+    
+      }
+      .pe:focus{
+        border: 1px solid rgb(18, 18, 248);
+        
+        background-color: rgb(218, 232, 250);
+      }
+      #lg{
+        margin-top: 10px;
+        width: 300px;
+        height: 50px;
+        font-size: 1.5rem;
+        border-radius: 10px;
+        color: white;
+        background-color: rgb(64, 64, 219);
+
+      }
+      #lg:hover{
+        background-color:  blue;
+      }
+
+      #cg{
+        margin-top: 10px;
+        width: 250px;
+        height: 50px;
+        font-size: 1.3rem;
+        border-radius: 10px;
+        color: white;
+        background-color: rgb(39, 167, 56);
+
+      }
+      #cg:hover{
+        background-color: green;
+      }
+
+} 
+    

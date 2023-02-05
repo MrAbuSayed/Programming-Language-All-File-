@@ -1,0 +1,48 @@
+/*. a=0. b=1.c=1.===011*/
+h1:hover{
+
+color: blueviolet;
+background-color: darkkhaki;
+display: inline;
+
+}
+/*. a=0. b=0.c=1.===001*/
+h1{
+
+    color: rgb(67, 1, 129);
+    background-color: rgb(95, 90, 25);
+    display: inline;
+    
+    }
+    /*. a=1. b=0.c=1.===101*/
+    h1.k{
+
+        color: rgb(49, 9, 87);
+        background-color: rgb(122, 115, 18);
+        display: inline;
+        
+        }
+
+        body{
+            background-image: url(https://i.postimg.cc/GpJ1MtkF/SAVE-20221023-222646.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            
+        }
+        p{
+            color: darkgreen;
+        }
+        div{
+           background-color: blueviolet;
+           display: inline;
+           float: right;
+        }
+        #h:hover{
+            opacity: 2;
+            color: blueviolet;
+            font-size: 30px;
+        }
+        #h{ 
+            opacity: 0.4;
+        }

@@ -1,0 +1,33 @@
+#k::first-line{
+ 
+   color: rgba(42, 77, 10, 0.774);
+   font-size: 30px;
+}
+#l::first-letter{
+   color: blueviolet;
+   font-size: 30px;
+ 
+}
+
+#j:hover{
+
+    color: rgba(62, 87, 6, 0.774);
+    font-size: 90px;
+    background-color: blueviolet;
+}
+#h:focus{
+    color: rgba(97, 3, 61, 0.774);
+    font-size: 90px; 
+    background-color: brown;
+
+}
+#s p:nth-child(2n+2){
+
+    color: rgb(231, 128, 10);
+    background-color: rgb(3, 26, 68);
+    display: inline;
+}
+
+
+
+

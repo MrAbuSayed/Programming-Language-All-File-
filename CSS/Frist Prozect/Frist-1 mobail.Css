@@ -1,0 +1,402 @@
+ 
+@media screen and (max-width: 700px){
+   
+  
+  
+  #body{
+    background-color: rgb(9, 9, 9);
+  }
+  
+  /*header start */
+ 
+ 
+ 
+ 
+   .head{
+    background-color: rgb(2, 2, 1);
+    margin: 0 auto;
+     
+  
+
+}
+#hi{  
+    text-align: center;
+    background-color: rgb(18, 10, 2);
+}
+#hi img{
+    
+    width: 50px;
+    height: 50px;
+   
+ }
+ 
+
+
+ #h{
+  color: rgb(6, 87, 85);
+    margin: 0 auto;
+    width: 155px;
+    border-radius:10px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+ }
+
+ .hl{
+  
+  text-align: right;
+  
+   
+ }
+
+ .bar{
+   
+  font-size: 2.4rem;
+  background-color: rgb(3, 27, 10);
+  color: rgb(183, 196, 196);
+  border: 3px solid rgb(49, 140, 128);
+  border-radius: 6px;
+  padding: 2px 10px;
+  margin-right: 10px;
+ }
+ .bar:focus{
+  background-color: rgb(170, 186, 175);
+  border: 3px solid rgb(203, 60, 228);
+  color: rgb(0, 12, 12);
+ }
+  
+#Hl{
+    
+       display: none;
+    padding: 10px;
+    width: 300px;
+    
+    margin: 0 auto;
+
+    
+
+  }  
+ 
+#Hl a{
+    display: flex;
+   text-decoration: none;
+   padding: 10px;
+   background-color: rgb(0, 98, 107);
+   color: rgb(8, 188, 220);
+   border: 3px solid black;
+   border-radius: 5px;
+   margin: 10px;
+   
+   
+} 
+#Hl a:hover{
+   
+    text-decoration: none;
+    padding: 10px;
+     
+    background-color: rgb(1, 72, 19);
+    color: rgb(232, 248, 231);
+    border: 3px solid black;
+    border-radius: 5px;
+ } 
+  /*header End */
+  
+   /*main staRT */
+   
+
+  #main{
+    position: relative;
+    text-align: center;
+    background-color: rgb(6, 2, 10);
+   
+  }
+ 
+    
+  
+
+  #mt h2{
+    color: rgb(0, 113, 75);
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+    
+  }
+  #mt p{
+    color: cadetblue;
+    font-style: italic;
+    font-weight: 700;
+ 
+}
+
+ /*main end*/
+
+
+/*dscx start*/
+.dsc{
+   position: relative;
+   text-align: center;
+   margin-top: 50px;
+   background-color: rgb(2, 11, 8);
+}
+.dsc h1{
+   color: rgb(72, 116, 101);
+  font-style: italic;
+  border: 2px solid rgb(37, 122, 159);
+  font-size: 1.5rem;
+  width: 300px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+#dta{
+   
+  border: 2px solid rgb(33, 1, 41);
+  width: 200px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+table,th,td{
+  color: rgba(202, 195, 245, 0.76);   
+  border: 1px none  rgb(14, 0, 27);
+ 
+  font-weight: bold;
+  border-collapse: collapse ;
+  background-color: rgba(25, 14, 27, 0.671);
+  border-radius: 2px;
+}
+/*dsc end*/
+
+/*img start*/
+
+
+.smimg{
+ background-color: rgb(22, 24, 25);
+text-align: center;
+
+}
+.smimg h2{
+  font-style: italic;
+  border: 2px solid rgb(16, 18, 21);
+  width: 250px;
+  color: rgb(95, 110, 139);
+  border-radius: 10px;
+  margin: 10px auto;
+  
+}
+
+
+#image{
+ width: 200px;
+  margin: 0 auto;
+}
+ .ima{
+ 
+  display: flex;
+  flex-direction: column;
+   margin: 20px 0;
+    width: 200px;
+    height: 280px;
+    border-radius: 5px;
+}
+
+.img{
+  width: 300px;
+  height: 200px;
+  border-radius: 5px;
+}
+/*img end*/
+
+
+/*Card satrt*/
+#mn{
+  display: flex;
+ flex-direction: column;
+ text-align: center;
+   
+ width: 280px;
+ margin: 0 auto;
+ 
+
+}
+
+#nm {
+  font-style: italic;
+  font-size: 1.4rem;
+  border: 2px solid rgb(140, 209, 250);
+  color: rgb(5, 124, 107);
+  width: 290px;
+  border-radius: 10px;
+  margin: 15px auto;
+  margin-top: 30px;
+
+}
+
+.crd{ 
+  position: relative;
+  width: 280px;
+  background-color: rgb(16, 9, 22);
+  border: 3px solid rgb(119, 74, 139);
+  border-radius: 10px;
+  text-align: center;
+  margin: 10px;
+}
+.crd:hover{
+  box-shadow: 6px 7px 5px rgb(23, 3, 41) ;
+}
+.crd h1{
+  font-size: 1.5rem;
+  background-color: rgb(129, 107, 79);
+ font-style: italic;
+}
+.crd img{
+  
+  height: 70px;
+  width: 70px;
+  border-radius: 50px;
+  border: 4px solid rgb(23, 7, 37);
+  margin: 0 auto;
+}
+.crd p{
+  color: rgb(13, 144, 116);
+ font-weight: bolder;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-style: italic;
+  font-size: .8rem;
+  padding: 10px;
+  text-align: justify;
+}
+.crd h3{
+  font-size: 1rem;
+  background-color: rgb(15, 48, 52);
+ font-style: italic;
+}
+/*Card end*/
+
+
+/* about start*/
+.abt{
+  background-color: rgb(1, 7, 8);
+  text-align: center;
+}
+.abt h1{
+  color: rgb(183, 251, 146);
+  text-align: center;
+  font-style: italic;
+  text-decoration: underline;
+}
+.abt img{
+  height: 100px;
+  width: 100px;
+  border: 2px dotted rgb(25, 0, 48);
+  border-radius: 100px;
+}
+
+ #b p{
+     font-style: italic;
+     font-weight: bold;
+     font-size: 1.2rem;
+     text-align:  center;
+     color: rgb(56, 132, 111);
+ }
+ #b p a{
+  text-decoration: none;
+  color: rgb(170, 102, 165);
+  font-style: normal;
+  font-size: 1.2rem;
+ }
+ /* about end*/
+
+/* cmnt start*/
+
+.cmnt{
+  text-align: center;
+   background-color: darkslategrey;
+}
+
+
+
+.txtem{
+  font-size: 1rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bolder;
+  font-style: italic;
+  width: 300px;
+  height: 60px;
+  border: 4px solid rgb(96, 0, 116);
+  border-radius: 9px;
+    
+ }
+ .txtem:focus{
+   border: 4px solid rgb(197, 0, 237);
+   width: 350px;
+ 
+ }
+ 
+ #textarea{
+ 
+   width: 350px;
+   height: 120px;
+   border: 4px solid rgb(96, 0, 116);
+   border-radius: 9px;
+     font-weight: bold;
+     font-style: italic;
+     font-size: 1.3rem;
+ }
+
+ 
+#sbmt{
+  height: 40px;
+  width: 90px;
+   border-radius: 7px;
+   font-size: 1.2rem;
+   font-style: italic;
+   background-color: rgb(74, 6, 106);
+   color: rgb(106, 195, 193);
+}
+#sbmt:focus{
+  height: 40px;
+  width: 90px;
+   border-radius: 7px;
+   font-size: 1.2rem;
+   font-style: italic;
+   background-color: rgb(12, 111, 124);
+   color: rgb(198, 144, 144);
+}
+
+/* cmnt end*/
+
+/* footer start */
+
+.ftr{
+  height: 100px;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+}
+.l{
+  background-color:rgb(0, 0, 0) ;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-size: 2rem;
+  border: none;
+  border-radius: 5px;
+  margin-left: 15px;
+  color: rgb(0, 246, 222);
+
+}
+
+.l:focus{
+
+color: rgb(185, 50, 145);
+}
+
+#txf{
+  color: rgb(137, 136, 153);
+  font-size: 1rem;
+  font-weight: lighter;
+ }
+
+
+/* footer end */
+
+
+
+}

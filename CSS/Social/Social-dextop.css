@@ -1,0 +1,86 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+@media screen and (min-width: 700px) {
+  body{
+    background-color: rgb(206, 195, 218);
+    position: relative;
+  }
+  
+  .hd{
+    position: absolute ;
+    text-align: left;
+    width: 350px;
+    left: 200px;
+    top: 150px;
+  }
+  .hd h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+    color: rgb(33, 33, 196);
+
+
+  }
+  .hd p{
+    font-size: 1.6rem;
+    font-style: italic;
+    color: rgb(29, 29, 80);
+    font-weight: bold;
+  }
+  .lgin{
+    position: absolute;
+    text-align: center;
+    background-color: white;
+    width: 400px;
+ 
+    border-radius: 10px;
+    right: 200px;
+    margin-top: 100px;
+  }
+  .pe{
+    margin-top: 10px;
+    border: 1px solid rgb(231, 231, 236);
+    
+    background-color: rgb(218, 232, 250);
+    width: 350px;
+    height: 50px;
+    font-size: 1rem;
+    border-radius: 5px;
+  
+
+  }
+  .pe:focus{
+    border: 1px solid rgb(18, 18, 248);
+    
+    background-color: rgb(218, 232, 250);
+  }
+  #lg{
+    margin-top: 10px;
+    width: 300px;
+    height: 50px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(49, 49, 214);
+
+  }
+  #lg:hover{
+    background-color: rgb(3, 3, 138);
+  }
+  
+  #cg{
+    margin-top: 10px;
+    width: 250px;
+    height: 50px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(39, 167, 56);
+
+  }
+
+
+} 

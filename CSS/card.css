@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.crd{ 
+    position: relative;
+    width: 280px;
+    background-color: blueviolet;
+    border: 3px solid rgb(28, 1, 41);
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+}
+.crd h1{
+    background-color: rgb(129, 107, 79);
+   font-style: italic;
+}
+.crd img{
+    
+    height: 90px;
+    width: 90px;
+    border-radius: 50px;
+    border: 4px solid rgb(23, 7, 37);
+    margin: 0 auto;
+}
+.crd p{
+    font-style: italic;
+    font-size: 1.2rem;
+    padding: 10px;
+    text-align: justify;
+}
+.crd h3{
+    background-color: rgb(129, 107, 79);
+   font-style: italic;
+}
+#mn{
+ 
+ 
+    display: flex;
+    flex-direction: row;
+    
+    width: 900px;
+
+}
+ 
