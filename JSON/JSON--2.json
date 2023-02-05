@@ -1,0 +1,83 @@
+
+
+
+// JSON COMPLEX DATA make
+
+
+{
+
+     "Student-Data":[
+
+
+                
+                {
+                    
+                    "name":"Abu sayed ",
+                    "Nickname":null,
+                    "DO org.": true,
+                    "Class":"ELEVEN",
+                    "Roll":17,
+                    "G.P.A":4.78,
+                    "Group":"Science",
+                    "Village":"Kutumbapur",
+
+                    "Skill":["HTML","CSS","JS","JQuary","JSON","Bootstarp"]
+
+                    
+                    
+                    
+                },
+
+
+                {
+                    
+                    "name":"Shafidul Limon ",
+                    "Nickname":null,
+                    "DO org.": false,
+                    "Class":"ten",
+                    "Roll":18,
+                    "G.P.A":5.00,
+                    "Group":"Science",
+                    "Village":"Khadgor",
+
+                    "Skill":["youtuber","Content-Creator","Video-Editor","Photographer"]
+
+                    
+                    
+                    
+                },
+
+
+                {
+                    
+                    "name":"Trequl Rifat ",
+                    "Nickname":null,
+                    "DO org.": false,
+                    "Class":"Tewlve",
+                    "Roll":19,
+                    "G.P.A":4.94,
+                    "Group":"Science",
+                    "Village":"Muradpur",
+
+                    "Skill":["HTML","CSS","JS","Python"]
+
+                    
+                    
+                    
+                }
+
+
+
+
+
+
+
+
+     ]
+
+
+
+
+
+
+}

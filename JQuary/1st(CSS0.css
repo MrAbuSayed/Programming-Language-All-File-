@@ -1,0 +1,10 @@
+
+.head3{
+    font-size: 1.2rem;
+    font-family: monospace;
+    font-style: italic;
+    text-align: center;
+  
+    background-color: darkslategrey;
+    color: aqua;
+}

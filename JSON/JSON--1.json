@@ -1,0 +1,41 @@
+
+// make json simple data
+
+{
+
+
+     "friend":[
+
+           {
+
+
+            "name":"Abu Sayed ",
+            "age":17,
+            "Class":"11th",
+            "height":"5feet 11inc "
+
+
+           },
+
+
+           {
+
+
+            "name":"Tarequl Rifat ",
+            "age":19,
+            "Class":"12th",
+            "height":"4feet 26inc "
+
+
+           }
+
+
+
+
+     ]
+
+
+
+
+
+}

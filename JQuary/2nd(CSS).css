@@ -1,0 +1,38 @@
+ 
+ .style{
+    color: cornflowerblue;
+    font-style: italic;
+    font-size: 3rem;
+ }
+
+ .mydiv{
+    display: none;
+    background-color: aquamarine;
+    color: coral;
+    width: 500px;
+    padding: 20px;
+ }
+ .mydiv1{
+    display: none; 
+    background-color: rgb(0, 133, 89);
+    color: rgb(103, 28, 0);
+    width: 500px;
+    padding: 20px;
+ }
+
+ .mydiv2{
+    display: none; 
+    background-color: rgb(57, 238, 6);
+    color: rgb(54, 1, 51);
+    width: 500px;
+    padding: 20px;
+ }
+
+ .mydiv3{
+    
+    background-color: rgb(62, 6, 150);
+    color: rgb(223, 137, 219);
+    width: 500px;
+    padding: 20px;
+ }
+ 
